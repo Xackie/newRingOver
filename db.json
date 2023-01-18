@@ -1,0 +1,69 @@
+{
+  "products":[
+    {   "id":1,
+    "name":"Scuderia",
+    "brand":"Puma",
+    "price":3500,
+    "image":"assets/2puma.jpg",
+    "size":8,
+    "rating":5
+  },
+  {   "id":2,
+      "name":"Nike Ebernon Black",
+      "brand":"Nike",
+      "price":8499,
+      "image":"assets/2nike.jpg",
+      "size":8,
+      "rating":5
+  },
+  {   "id":3,
+      "name":"Excel Court",
+      "brand":"Adidas",
+      "price":4560,
+      "image":"assets/1adidas.jpeg",
+      "size":8,
+      "rating":5
+  },
+  {   "id":4,
+      "name":"Soft Ride",
+      "brand":"Puma",
+      "price":2250,
+      "image":"assets/1puma.jpeg",
+      "size":8,
+      "rating":5
+  },
+  {   "id":5,
+      "name":"Orion",
+      "brand":"Nike",
+      "price":9899,
+      "image":"assets/2adidas.jpeg",
+      "size":8,
+      "rating":5
+  },
+ 
+{   "id":6,
+      "name":"Nike Revelution 2",
+      "brand":"Adidas",
+      "price":2699,
+      "image":"assets/11nike.jpg",
+      "size":8,
+      "rating":4
+  },
+  {   "id":7,
+      "name":"Nike Revelution 3",
+      "brand":"Nike",
+      "price":3299,
+      "image":"assets/11nike.jpg",
+      "size":9,
+      "rating":4
+  },
+  {   "id":8,
+      "name":"NRGY",
+      "brand":"Puma",
+      "price":2950,
+      "image":"assets/NRGYPuma.jpg",
+      "size":9,
+      "rating":4
+  }
+]
+}

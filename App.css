@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+}
+:root{
+  --primary-color:hsl(100, 25%, 95%)
+}
+
+
+ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+li {
+  display:inline-block;
+  margin-right:35px;
+}
+ul li:hover {
+  color: rgb(4, 2, 80);
+  /* text-decoration: underline; */
+}
+ul li:active {
+  color: rgb(149, 13, 13);
+  text-decoration: underline;
+}
+
+.header{
+  /* display: flex;
+  flex-direction: column; */
+  width: 100%;
+  height: 10vh;
+  /* border: 1px solid red; */
+}
+
+ul li{
+  padding-left: 5vh;
+  padding-top: 1vh;
+  cursor: pointer;
+ font-weight: 400;
+ font-size: larger;
+
+}
+ul li:first-child {
+  position: absolute;
+  left: 150px;
+  top: 0
+}
+ul li:last-child{
+  position: absolute;
+  right: 150px;
+  top: 0
+}
+.loginbutton{
+  margin-top: 1.2vh;
+ 
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+  padding: 10px 15px;
+  text-align: center;
+  transition: all .2s ease-in-out;
+  display: flex;
+}
+.loginbutton:hover{
+  scale: 1.01;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(29, 28, 28, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.loginbutton img{
+  width :25px;
+  height: 25px;
+  padding-right: 1vh;
+}
+.contact{
+  width: 20%;
+  height: 60vh;
+  /* border: 1px solid red; */
+  position:relative;
+  top: 10vh;
+  left: 40%;
+  text-align: center;
+  background-color: var(--primary-color);
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.contact:hover{
+  transform: scale(1.003) ;
+}
+.contact_item{
+  font-weight: 400;
+   margin-top: 10px;
+   
+}
+
+.contact_item h3{
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: auto;
+  padding-top: 20px;
+
+}
+.contact_item span{
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+
+}
+.socialMedia{
+  width: 20%;
+  height:60px;
+  /* border: 1px solid red; */
+  position:relative;
+  top: 15vh;
+  left: 40%;
+  text-align: center;
+  font-weight: 400;
+}
+.socialMedia-icons{
+display: flex;
+justify-content: center;
+}
+.socialMedia-icons img{
+  padding: 10px;
+}
+.people{
+  /* margin-top: 10vh; */
+  /* border: 1px solid salmon; */
+  display: flex;
+}
+.peopleCard{
+  text-align: center;
+  width: 20vh;
+  height: 50vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  flex-grow: 1;
+  margin: 4em;
+
+}
+.peopleCard:hover{
+    transform: scale(1.003) ;
+cursor: pointer;
+}
+.peopleCard img{
+  width:100%;
+  height: 28vh;
+}
+.peopleCard h3{
+margin-top: 5vh;
+margin-bottom: 0vh;
+font-weight: 500;
+line-height: 20px;
+
+}
+.peopleCard span{
+font-size: small;
+
+}
+.peopleCard_medias{
+display: flex;
+justify-content:center;
+margin-top:10px;
+}
+.peopleCard_medias img{
+  width: 25px;
+  height:25px;
+  padding: 10px;
+}
+
+.store{
+  display: flex;
+  /* border: 1px solid #333333; */
+  width: 100%;
+  height: 90vh;
+  justify-content: space-around;
+  margin-top: 5vh;
+}
+
+.products{
+  width: 70%;
+  height:90vh;
+  /* border: 1px solid #333333; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+/* .singleProd{
+display:"flex";
+border: 1px solid #333333;
+
+} */
+/* .singleProd_display{
+  margin-top: 5vh;
+  width: 100%;
+  height:80vh;
+  border: 1px solid #333333;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+} */
+
+/* .singleProd_display_items{
+  display: flex;
+} */
+/* .singleProd_display img{
+width: 50%;
+height:50vh;
+border: 1px solid #d81515;
+
+} */
+
+/* .singleProd_display_details{
+  width: 50%;
+  height: 50vh;
+  border: 1px solid #333333;
+
+} */
+/* .singleProd_display_buttons{
+  width: 100%;
+  height:10vh;
+    border: 1px solid #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  } */
+  /* .singleProd_display__details{
+    display: flex;
+    flex-direction: column;
+  } */
+  .storeHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:10vh;
+  }
+  .storeHeader select{
+    margin-right: 5vh;
+    height: 5vh;
+  margin-top: 2.5vh;
+  }
+  .journeyPage{
+    display: "flex" ;
+     flex-direction:"column";
+     margin-top:5vh;
+     margin-left:20vh;
+     margin-right:20vh;
+     margin-bottom: 5vh;
+     background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgb(0, 0, 0),
+    rgba(0, 0, 0, 0.71)
+   
+);
+     color: wheat;
+
+  }
+
+.Journey{
+
+  margin-left: 10vh;
+  margin-right: 10vh;
+  margin-top: 5vh;
+  padding-bottom: 5vh;
+}
+.home{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgb(0, 0, 0),
+    rgba(0, 0, 0, 0.41)
+   
+);
+
+}
+.home h1{
+  font-size: 200px;
+  text-align:center;
+ padding-top: 22vh;
+ font-family: monserrat;
+}
